@@ -7,7 +7,7 @@ public class ScannerEx {
 		Scanner scanner = new Scanner(System.in);	
 		// System.in : 표준입력
 		// System.out : 표준출력
-		System.out.print("두자리 정수를 하나 입력해주세요.>");
+		System.out.println("두자리 정수를 하나 입력해주세요.>");
 		String input = scanner.nextLine();
 		int num = Integer.parseInt(input);	// 입력받은 문자열을 숫자(int형)로 변환
 		/*
