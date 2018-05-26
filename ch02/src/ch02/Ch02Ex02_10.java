@@ -11,14 +11,14 @@ public class Ch02Ex02_10 {
 
 		System.out.println("두개의 정수를 입력해주세요.>");
 		
-		String input1 = scanner.nextLine();
-		String input2 = scanner.nextLine();
+		String strNum1 = scanner.nextLine();
+		String strNum2 = scanner.nextLine();
 		
-		int d1 = Integer.parseInt(input1);
-		int d2 = Integer.parseInt(input2);
+		int d1 = Integer.parseInt(strNum1);
+		int d2 = Integer.parseInt(strNum2);
 		int sum = d1+d2;
 		
-		System.out.printf("%d + %d = %d%n", d1,sum);
+		System.out.printf("%d + %d = %d%n", d1,d2,sum);
 		
 		
 	}

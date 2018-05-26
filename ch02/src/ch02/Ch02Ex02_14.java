@@ -1,6 +1,6 @@
 package ch02;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Ch02Ex02_14 {
 
@@ -13,11 +13,11 @@ public class Ch02Ex02_14 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("yard? ");
 		
-		String input = scanner.nextLine();
-		double yrd = Double.parseDouble(input);
+		String strNum1 = scanner.nextLine();
+		double yrd = Double.parseDouble(strNum1);
 		double yrdtocm = yrd*91.44;
 		
-		System.out.printf("%.1fyard = %.1fcm",yrd,yrdtocm);
+		System.out.printf("%.0fyard = %.1fcm",yrd,yrdtocm);
 	}
 
 }

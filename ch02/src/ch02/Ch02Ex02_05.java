@@ -12,15 +12,15 @@ public class Ch02Ex02_05 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("추의 무게 49, 중력의비율 0.2683을 키보드로 입력해주세요");
 		
-		String input1 = scanner.nextLine();
-		String input2 = scanner.nextLine();
+		String strNum1 = scanner.nextLine();
+		String strNum2 = scanner.nextLine();
 		
-		int num1 = Integer.parseInt(input1);
-		float num2 = Float.parseFloat(input2);
+		int num1 = Integer.parseInt(strNum1);
+		float num2 = Float.parseFloat(strNum2);
 		float mul = (num1*num2);
 		
 		
-		System.out.printf("%d x %f = %f", num1, num2, mul);
+		System.out.printf("%d x %.6f = %.6f", num1, num2, mul);
 	}
 
 }

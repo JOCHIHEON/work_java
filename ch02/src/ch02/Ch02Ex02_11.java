@@ -14,11 +14,11 @@ public class Ch02Ex02_11 {
 		System.out.println("두개의 실수를 입력해주세요.>");
 
 		
-		String input1 = scanner.nextLine();
-		String input2 = scanner.nextLine();
+		String strNum1 = scanner.nextLine();
+		String strNum2 = scanner.nextLine();
 		
-		float f1 = Float.parseFloat(input1);
-		float f2 = Float.parseFloat(input2);
+		float f1 = Float.parseFloat(strNum1);
+		float f2 = Float.parseFloat(strNum2);
 		float sum = f1+f2;
 		
 		System.out.printf("%10.2f%10.2f%10.2f", f1, sum);

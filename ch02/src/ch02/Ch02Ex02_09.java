@@ -10,17 +10,17 @@ public class Ch02Ex02_09 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("두개의 실수(소숫점 이하7자리)와, 한개의 실수(소숫점 이하15자리)를 입력해주세요.>");
 		
-		String input1 = scanner.nextLine();
-		String input2 = scanner.nextLine();
-		String input3 = scanner.nextLine();
+		String strNum1 = scanner.nextLine();
+		String strNum2 = scanner.nextLine();
+		String strNum3 = scanner.nextLine();
 		
-		float f1 = Float.parseFloat(input1);
-		float f2 = Float.parseFloat(input2);
-		double dbl = Double.parseDouble(input3);
+		float num1 = Float.parseFloat(strNum1);
+		float num2 = Float.parseFloat(strNum2);
+		double num3 = Double.parseDouble(strNum3);
 		
-		System.out.printf("%.3f%n", f1);
-		System.out.printf("%.3f%n", f2);
-		System.out.printf("%.3f%n", dbl);
+		System.out.printf("%.3f%n", num1);
+		System.out.printf("%.3f%n", num2);
+		System.out.printf("%.3f%n", num3);
 	}
 
 }

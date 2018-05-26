@@ -11,13 +11,13 @@ public class Ch02Ex02_13 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("정수 세개를 입력해주세요.");
 		
-		String input1 = scanner.nextLine();
-		String input2 = scanner.nextLine();
-		String input3 = scanner.nextLine();
+		String strNum1 = scanner.nextLine();
+		String strNum2 = scanner.nextLine();
+		String strNum3 = scanner.nextLine();
 		
-		int i1 = Integer.parseInt(input1);
-		int i2 = Integer.parseInt(input2);
-		int i3 = Integer.parseInt(input3);
+		int i1 = Integer.parseInt(strNum1);
+		int i2 = Integer.parseInt(strNum2);
+		int i3 = Integer.parseInt(strNum3);
 		int sum = i1+i2+i3;
 		System.out.printf("sum = %d%n", sum );
 		System.out.printf("avg = %d%n", (sum)/3);

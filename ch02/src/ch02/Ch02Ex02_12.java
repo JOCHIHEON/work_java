@@ -14,11 +14,11 @@ public class Ch02Ex02_12 {
 		
 		System.out.println("50과 100.12를 차례로 입력해주세요.");
 		
-		String input1 = scanner.nextLine();
-		String input2 = scanner.nextLine();
+		String strNum1 = scanner.nextLine();
+		String strNum2 = scanner.nextLine();
 		
-		int i = Integer.parseInt(input1);
-		float f = Float.parseFloat(input2);
+		int i = Integer.parseInt(strNum1);
+		float f = Float.parseFloat(strNum2);
 		float mul = f*i;
 		
 		System.out.printf("%.2f * %d = %.0f",f,i,mul);

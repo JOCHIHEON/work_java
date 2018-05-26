@@ -9,17 +9,19 @@ public class Ch02Ex02_08 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("실수 2개와 한 개의 문자를 입력해주세요.");
 		
-		String input1 = scanner.nextLine();
-		String input2 = scanner.nextLine();
-		String input3 = scanner.nextLine();
+		String strNum1 = scanner.nextLine();
+		String strNum2 = scanner.nextLine();
+		String strChar = scanner.nextLine();
 		
-		float f1 = Float.parseFloat(input1);
-		float f2 = Float.parseFloat(input2);
-		String ch = input3;
-				
+		// 입력받은 실수 2개를 실수(double)형으로 변경
+		// 단, 문자는 굳이 문자로 변경할 필요가 없다.
+		
+		float f1 = Float.parseFloat(strNum1);
+		float f2 = Float.parseFloat(strNum2);
+		
 		System.out.printf("%.2f%n", f1);
 		System.out.printf("%.2f%n", f2);
-		System.out.printf("%s%n", input3);
+		System.out.printf("%s%n", strChar);
 
 
 	}

@@ -8,11 +8,12 @@ public class Ch02Ex02_07 {
 		(입력할때 "height = " 문장을 먼저 출력하고 키를 입력 받아야 합니다.)
 		*/
 		Scanner scanner = new Scanner(System.in);
+		
 		System.out.print("height = ");
 		
-		String input = scanner.nextLine();
+		String strNum = scanner.nextLine();
 		
-		float height = Float.parseFloat(input);
+		float height = Float.parseFloat(strNum);
 		
 		System.out.printf("Your height is %.0fcm.", height);
 	}
