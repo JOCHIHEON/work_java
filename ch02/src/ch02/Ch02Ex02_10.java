@@ -16,8 +16,9 @@ public class Ch02Ex02_10 {
 		
 		int d1 = Integer.parseInt(input1);
 		int d2 = Integer.parseInt(input2);
+		int sum = d1+d2;
 		
-		System.out.printf("%d + %d = %d%n", d1,d2,d1+d2);
+		System.out.printf("%d + %d = %d%n", d1,sum);
 		
 		
 	}

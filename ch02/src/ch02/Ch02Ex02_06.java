@@ -18,8 +18,8 @@ public class Ch02Ex02_06 {
 		double ydToCm = yd*91.44;
 		double inToCm = in*2.54;
 		
-		System.out.printf("%.0fyd = %5.1fcm%n", yd, ydToCm);
-		System.out.printf("%.0fin = %5.1fcm%n", in, inToCm);
+		System.out.printf("%4.1fyd = %5.1fcm%n", yd, ydToCm);
+		System.out.printf("%4.1fin = %5.1fcm%n", in, inToCm);
 	}
 	
 	

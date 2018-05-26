@@ -19,8 +19,9 @@ public class Ch02Ex02_11 {
 		
 		float f1 = Float.parseFloat(input1);
 		float f2 = Float.parseFloat(input2);
+		float sum = f1+f2;
 		
-		System.out.printf("%10.2f%10.2f%10.2f", f1, f2, f1+f2);
+		System.out.printf("%10.2f%10.2f%10.2f", f1, sum);
 
 	}
 

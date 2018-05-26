@@ -17,8 +17,10 @@ public class Ch02Ex02_05 {
 		
 		int num1 = Integer.parseInt(input1);
 		float num2 = Float.parseFloat(input2);
+		float mul = (num1*num2);
 		
-		System.out.printf("%d x %f = %f", num1, num2, num1*num2);
+		
+		System.out.printf("%d x %f = %f", num1, num2, mul);
 	}
 
 }

@@ -19,8 +19,9 @@ public class Ch02Ex02_12 {
 		
 		int i = Integer.parseInt(input1);
 		float f = Float.parseFloat(input2);
+		float mul = f*i;
 		
-		System.out.printf("%.2f * %d = %.0f",f,i,f*i);
+		System.out.printf("%.2f * %d = %.0f",f,i,mul);
 
 	}
 
