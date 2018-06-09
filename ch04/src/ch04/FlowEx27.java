@@ -7,7 +7,7 @@ public class FlowEx27 {
 	public static void main(String[] args) {
 		int num;
 		int sum = 0;
-		boolean flag = true;	// while문의 조건식으로 사용될 변수
+		boolean flag = true;	// while문의 조건식으로 사용될 변수, 후에 false로 변경
 		
 		System.out.println("합계를 구할 숫자를 입력하세요. (끝내려면 0을 입력)");
 		
