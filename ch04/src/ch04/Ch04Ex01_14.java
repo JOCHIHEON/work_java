@@ -8,7 +8,7 @@ public class Ch04Ex01_14 {
 		작성하시오.*/
 		int month, day = 0;
 		Scanner scanner = new Scanner(System.in);
-		month = scanner.nextInt();
+		month = Integer.parseInt(scanner.nextLine());
 		
 		switch(month) {
 		case 1: 
