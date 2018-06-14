@@ -8,9 +8,9 @@ public class Ch04Ex01_03 {
 		되는지를 "○ years later"라는 메시지를 출력하는 프로그램을 작성하시오.*/
 		int age;
 		Scanner scanner = new Scanner(System.in);
-		
+
 		age = scanner.nextInt();
-		
+
 		if(20<=age) {
 			System.out.println("adult");
 		} else {
