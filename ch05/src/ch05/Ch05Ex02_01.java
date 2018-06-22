@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ch05Ex02_01 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
 		String[] input = scanner.nextLine().split(" ");
 		
 		char[] result = new char[input.length];

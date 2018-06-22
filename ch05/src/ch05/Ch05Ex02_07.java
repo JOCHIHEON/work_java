@@ -19,7 +19,7 @@ public class Ch05Ex02_07 {
 			num[0] = Integer.parseInt(input);
 			for (int i = 0; i < num.length; i++) {
 				if (i == num.length) {	// Ch05Ex01_12
-					int[] tmp = new int[num.length * 3];
+					int[] tmp = new int[num.length * 2];
 					System.arraycopy(num, 0, tmp, 0, num.length);
 					num = tmp;
 				}

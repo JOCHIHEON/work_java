@@ -21,5 +21,7 @@ public class Ch05Ex02_04 {
 		else {
 			System.out.printf("%d %d", numbers[tmp-2],numbers[tmp-1]);
 		}
+		
+		
 	}
 }
