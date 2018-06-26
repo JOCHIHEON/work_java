@@ -15,8 +15,8 @@ public class Exercise5_06 {
 		for(int i = 0;i < coinUnit.length; i++) { // 4번
 			int quotient = 0;
 			quotient = money / coinUnit[i];
-			money = money % coinUnit[i];
 			System.out.println(coinUnit[i] + " : " + quotient);
+			money = money % coinUnit[i];			
 			}
 			
 	}

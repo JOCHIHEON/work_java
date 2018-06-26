@@ -16,7 +16,7 @@ public class Exercise5_04 {
 				total += arr[i][j];
 			}
 		}
-		average = (float)total / (arr.length * arr[0].length);
+		average = total / (float)(arr.length * arr[0].length);
 		
 		System.out.println("total="+total);
 		System.out.println("average="+average);

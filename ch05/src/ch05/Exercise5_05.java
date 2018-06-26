@@ -12,8 +12,10 @@ public class Exercise5_05 {
 		for(int i = 0; i< ballArr.length; i++) {
 			int j = (int)(Math.random() * ballArr.length);
 			int tmp = 0;
-			tmp = j;
-			j = ballArr[i];
+			
+			
+			tmp = ballArr[j];
+			ballArr[j] = ballArr[i];
 			ballArr[i] = tmp;	
 		}
 
