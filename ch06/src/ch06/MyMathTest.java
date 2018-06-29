@@ -1,6 +1,7 @@
 package ch06;
 
 class MyMath {
+//               method의 parameter
 		long add (long a, long b) { 
 //			long result = a + b;
 //			return result;	// 위의 두줄을 이와 같이 한줄로 간단히 할수있다.
