@@ -23,4 +23,12 @@ public class Person {
 		this.point = point;
 	}
 	
+	public int compareTo(Person o) {
+		if(this.age<o.getAge()) {
+			return -1;
+		}else if(this.age>o.getAge()) {
+			return 1;
+		}
+		return 0;
+	}
 }
